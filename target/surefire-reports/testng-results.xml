@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-22T20:29:17 IST" name="Suite" finished-at="2025-03-22T20:29:36 IST" duration-ms="19716">
+    <groups>
+      <group name="Sanity">
+        <method signature="LoginTest.testLogin()[pri:0, instance:testCases.LoginTest@4d9e68d0]" name="testLogin" class="testCases.LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="AccountRegistrationTest.verifyAccountRegistration()[pri:0, instance:testCases.AccountRegistrationTest@5fdcaa40]" name="verifyAccountRegistration" class="testCases.AccountRegistrationTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-03-22T20:29:17 IST" name="Test1" finished-at="2025-03-22T20:29:36 IST" duration-ms="19716">
+      <class name="testCases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginTest@4d9e68d0]" started-at="2025-03-22T20:29:17 IST" name="setUp" finished-at="2025-03-22T20:29:25 IST" duration-ms="8002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:testCases.LoginTest@4d9e68d0]" started-at="2025-03-22T20:29:25 IST" name="testLogin" finished-at="2025-03-22T20:29:28 IST" duration-ms="2884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginTest@4d9e68d0]" started-at="2025-03-22T20:29:28 IST" name="tearDown" finished-at="2025-03-22T20:29:28 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.AccountRegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AccountRegistrationTest@5fdcaa40]" started-at="2025-03-22T20:29:28 IST" name="setUp" finished-at="2025-03-22T20:29:33 IST" duration-ms="4323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAccountRegistration()[pri:0, instance:testCases.AccountRegistrationTest@5fdcaa40]" started-at="2025-03-22T20:29:33 IST" name="verifyAccountRegistration" finished-at="2025-03-22T20:29:36 IST" duration-ms="3228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AccountRegistrationTest@5fdcaa40]" started-at="2025-03-22T20:29:36 IST" name="tearDown" finished-at="2025-03-22T20:29:36 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AccountRegistrationTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

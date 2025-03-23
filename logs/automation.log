@@ -1,0 +1,34 @@
+2025-03-22 20:29:20.491 [TestNG-suites-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2025-03-22 20:29:20.493 [TestNG-suites-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2025-03-22 20:29:20.494 [TestNG-suites-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2025-03-22 20:29:20.494 [TestNG-suites-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2025-03-22 20:29:20.494 [TestNG-suites-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2025-03-22 20:29:20.494 [TestNG-suites-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2025-03-22 20:29:20.511 [TestNG-suites-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2025-03-22 20:29:20.511 [TestNG-suites-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2025-03-22 20:29:20.512 [TestNG-suites-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2025-03-22 20:29:20.923 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12692 (auto-detected)
+2025-03-22 20:29:20.926 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-03-22 20:29:20.927 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-03-22 20:29:20.941 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2025-03-22 20:29:20.943 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-03-22 20:29:20.969 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 40:a3:cc:ff:fe:a6:fd:74 (auto-detected)
+2025-03-22 20:29:21.059 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2025-03-22 20:29:21.059 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2025-03-22 20:29:21.059 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@78d55ece
+2025-03-22 20:29:21.101 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2025-03-22 20:29:21.101 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2025-03-22 20:29:21.101 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2025-03-22 20:29:21.101 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2025-03-22 20:29:21.102 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2025-03-22 20:29:22.482 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-03-22 20:29:22.778 [TestNG-suites-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x3716ffbb020a8c28
+2025-03-22 20:29:25.599 [TestNG-suites-1] INFO  testCases.LoginTest - ****** Starting verifyAccountRegistrationTest  *******
+2025-03-22 20:29:26.414 [TestNG-suites-1] INFO  testCases.LoginTest - Clicked on MyAccount Link
+2025-03-22 20:29:26.965 [TestNG-suites-1] INFO  testCases.LoginTest - Clicked on Login Link
+2025-03-22 20:29:33.267 [TestNG-suites-1] INFO  testCases.AccountRegistrationTest - ****** Starting verifyAccountRegistrationTest  *******
+2025-03-22 20:29:33.403 [TestNG-suites-1] INFO  testCases.AccountRegistrationTest - Clicked on MyAccount Link
+2025-03-22 20:29:34.146 [TestNG-suites-1] INFO  testCases.AccountRegistrationTest - Clicked on Register Link
+2025-03-22 20:29:34.152 [TestNG-suites-1] INFO  testCases.AccountRegistrationTest - providing customer details
+2025-03-22 20:29:36.407 [TestNG-suites-1] INFO  testCases.AccountRegistrationTest - Validating expected Message
+2025-03-22 20:29:36.494 [TestNG-suites-1] INFO  testCases.AccountRegistrationTest - ****** Finished verifyAccountRegistrationTest  *******
